@@ -3,6 +3,8 @@
 /node_modules
 /build
 /mysql
+#ignore docker
+docker-compose.yml
 # Logs
 logs
 *.log
