@@ -13,7 +13,7 @@ export class User {
     @Column()
     dateBirth: Date;
 
-    @Column({ unique: true })
+    @Column({ unique: true, nullable: false })
     email: string;
 
     @Column()
